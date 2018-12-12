@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "PredictionModelsEmpty",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "f89081c10b94b2d2c0f28cd5f1db01",
+    "system_secret": ""
+}
