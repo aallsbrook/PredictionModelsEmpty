@@ -1,0 +1,26 @@
+{
+    "app_id": "f89081c10b94b2d2c0f28cd5f1db01",
+    "collection_id": "fa9081c10ba0adc8f3a6d5ddd8f301",
+    "items": [],
+    "name": "FeatureGroups",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "notes",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
