@@ -1,0 +1,2434 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "0239b016-55dc-403e-bb24-71540134bf03": "xxs",
+            "0a9d7354-42f4-4014-81c6-86315446595b": "lg",
+            "1bd43851-1a00-46e5-97c8-c69465515cca": "xxs",
+            "2650df8c-cb2f-4b21-85f1-b88729d584b8": "lg",
+            "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec": "lg",
+            "5c907ecc-3e84-42bc-b804-37bed3bdad41": "lg",
+            "76f004b6-4caa-4d7c-8f6d-de463fef2b74": "xxs",
+            "926f2bef-8b20-4b3d-b2ee-396d8987c9f7": "lg",
+            "ea6d3940-0ded-4bb8-be6c-442f2211e884": "lg"
+        },
+        "datasources": {
+            "0fa8b0ba-5fbe-4f87-a4ad-65ba2dccfa83": {
+                "id": "0fa8b0ba-5fbe-4f87-a4ad-65ba2dccfa83",
+                "name": "updateGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "122a5487-8b09-463d-b09f-9e8a01d5af63": {
+                "id": "122a5487-8b09-463d-b09f-9e8a01d5af63",
+                "name": "selectedNetwork",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "1735ed8b-f8f6-42d2-aa25-42a860835610": {
+                "id": "1735ed8b-f8f6-42d2-aa25-42a860835610",
+                "name": "updateFeatureGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateFeatureGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "367db343-6182-4a44-80cb-f2859d89ef2d": {
+                "id": "367db343-6182-4a44-80cb-f2859d89ef2d",
+                "name": "deleteFeatureGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "deleteFeatureGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "3a2801a8-a018-4f00-9e16-48a2c87dbe6e": {
+                "id": "3a2801a8-a018-4f00-9e16-48a2c87dbe6e",
+                "name": "updateFeatures",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateFeatures",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "4d8e0e7e-b77b-4071-9ebe-ebf726a014fc": {
+                "id": "4d8e0e7e-b77b-4071-9ebe-ebf726a014fc",
+                "name": "fetchNetworks",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "fetchNetworks",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "4df8f0cc-9cde-40e4-b0c9-922243aee363": {
+                "id": "4df8f0cc-9cde-40e4-b0c9-922243aee363",
+                "name": "deleteFeatures",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "deleteFeatures",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "5139f3dc-106d-4122-a92d-840a14a72b4e": {
+                "id": "5139f3dc-106d-4122-a92d-840a14a72b4e",
+                "name": "fetchFeatureGroups",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "fetchFeatureGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "82e698ca-c0d8-4a95-a198-aa8f498cb6a2": {
+                "id": "82e698ca-c0d8-4a95-a198-aa8f498cb6a2",
+                "name": "helloWorld",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "helloWorld",
+                    "payload": "{name:\"bob\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "852aff79-490a-443a-9e19-5983e1304f90": {
+                "id": "852aff79-490a-443a-9e19-5983e1304f90",
+                "name": "selectedPage",
+                "settings": {
+                    "defaultValue": "{\"page\":\"home\"}"
+                },
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "906b2d38-4ee9-4721-b39a-1cf0c0dd9c59": {
+                "id": "906b2d38-4ee9-4721-b39a-1cf0c0dd9c59",
+                "name": "fetchFeatures",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "fetchFeatures",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "a9421f3f-f4ac-4891-94d4-a478c2495a09": {
+                "id": "a9421f3f-f4ac-4891-94d4-a478c2495a09",
+                "name": "selectedGroup",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "a9a41743-acb5-4889-abe2-a974db5eaec6": {
+                "id": "a9a41743-acb5-4889-abe2-a974db5eaec6",
+                "name": "createGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "createGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "abb740a4-40ae-4d58-9657-72efed516583": {
+                "id": "abb740a4-40ae-4d58-9657-72efed516583",
+                "name": "updateNetworks",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateNetworks",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b1bcae13-166e-449a-b14d-ddf36f577615": {
+                "id": "b1bcae13-166e-449a-b14d-ddf36f577615",
+                "name": "createFeatureGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "createFeatureGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b29ea609-c999-4ae6-b15f-ce892e33e447": {
+                "id": "b29ea609-c999-4ae6-b15f-ce892e33e447",
+                "name": "fetchGroups",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "fetchGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "cc39936a-fd60-41b0-bfb3-67b98f12493f": {
+                "id": "cc39936a-fd60-41b0-bfb3-67b98f12493f",
+                "name": "deleteGroups",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "deleteGroups",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "e236f638-7a71-4a1e-be8d-60e4377dbfed": {
+                "id": "e236f638-7a71-4a1e-be8d-60e4377dbfed",
+                "name": "deleteNetworks",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "deleteNetworks",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "e742b9c6-17d7-4e82-88f6-d8f3fcc1ee1e": {
+                "id": "e742b9c6-17d7-4e82-88f6-d8f3fcc1ee1e",
+                "name": "selectedFeature",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "e7dcd69b-db73-4ca2-992e-5cdbb36c0ec3": {
+                "id": "e7dcd69b-db73-4ca2-992e-5cdbb36c0ec3",
+                "name": "selectedFeatureGroup",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "ed2672b7-25e5-4c46-a16c-3abae76d8742": {
+                "id": "ed2672b7-25e5-4c46-a16c-3abae76d8742",
+                "name": "createNetworks",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "createNetworks",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "f07e613f-ccdf-4f6f-947b-8b4026eda1cf": {
+                "id": "f07e613f-ccdf-4f6f-947b-8b4026eda1cf",
+                "name": "createFeatures",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "createFeatures",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "90308f59-12a6-4aa0-ad3d-cc153f202665",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 62,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 62,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "08e4bb08-053c-4235-b112-9ac81f016f61": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "08e4bb08-053c-4235-b112-9ac81f016f61",
+                "isChild": false,
+                "isParam": false,
+                "name": "harpersPage",
+                "path": ""
+            },
+            "501aa414-feb7-4014-b855-7b14dda38b5f": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "501aa414-feb7-4014-b855-7b14dda38b5f",
+                "isChild": false,
+                "isParam": false,
+                "name": "Features",
+                "path": ""
+            },
+            "52dadeef-b2a7-4cc6-b0df-180ed6b4a193": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "52dadeef-b2a7-4cc6-b0df-180ed6b4a193",
+                "isChild": false,
+                "isParam": false,
+                "name": "FeatureGroups",
+                "path": ""
+            },
+            "590bf8bd-8c64-4fac-8c08-1f470827dad7": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "590bf8bd-8c64-4fac-8c08-1f470827dad7",
+                "isChild": false,
+                "isParam": false,
+                "name": "Networks",
+                "path": ""
+            },
+            "8f8f333a-6fed-4d1a-b4e0-5959986a41cc": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "8f8f333a-6fed-4d1a-b4e0-5959986a41cc",
+                "isChild": false,
+                "isParam": false,
+                "name": "TestNetwork",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            },
+            "d538bb50-389f-474f-ae32-3bdea85750a3": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "d538bb50-389f-474f-ae32-3bdea85750a3",
+                "isChild": false,
+                "isParam": false,
+                "name": "Groups",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "0239b016-55dc-403e-bb24-71540134bf03": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "af5b7ea2-0835-4941-a550-1cd0316f25a1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 22,
+                        "i": "af5b7ea2-0835-4941-a550-1cd0316f25a1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    }
+                ]
+            },
+            "0a9d7354-42f4-4014-81c6-86315446595b": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "d0cff53a-ee1d-4ccc-8f65-aa87d43ada55",
+                        "minH": 3,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "1bd43851-1a00-46e5-97c8-c69465515cca": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "91a1af50-dcfa-46b6-863b-7261713d9882",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 17,
+                        "i": "91a1af50-dcfa-46b6-863b-7261713d9882",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ]
+            },
+            "2650df8c-cb2f-4b21-85f1-b88729d584b8": {
+                "lg": [
+                    {
+                        "h": 20,
+                        "i": "507c5834-9dba-4d46-be36-8a3e810b2bac",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "2a578a46-3af5-4f6f-9e12-d97d41896b6a",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 20
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "78cf8867-27ae-4445-88c1-cbb438cc7ce0",
+                        "minH": 3,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "5c907ecc-3e84-42bc-b804-37bed3bdad41": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "edd74ee4-1308-429d-9bf8-f4fd61eeb24f",
+                        "minH": 3,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "76f004b6-4caa-4d7c-8f6d-de463fef2b74": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "f7ba57de-c031-446b-acbf-209c4f1989c4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 24,
+                        "i": "f7ba57de-c031-446b-acbf-209c4f1989c4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ]
+            },
+            "926f2bef-8b20-4b3d-b2ee-396d8987c9f7": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "c0bab29c-ebd4-4465-8b2c-cb2d3f1def7a",
+                        "minH": 3,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "ea6d3940-0ded-4bb8-be6c-442f2211e884": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "206d6ee8-062f-4e45-8eca-78eccf9bc5ac",
+                        "minH": 3,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "08e4bb08-053c-4235-b112-9ac81f016f61": {
+                "lg": [
+                    {
+                        "h": 4,
+                        "i": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "501aa414-feb7-4014-b855-7b14dda38b5f": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "52dadeef-b2a7-4cc6-b0df-180ed6b4a193": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "590bf8bd-8c64-4fac-8c08-1f470827dad7": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "8f8f333a-6fed-4d1a-b4e0-5959986a41cc": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "Home": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "d538bb50-389f-474f-ae32-3bdea85750a3": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "0cbecd68-47e9-455c-a8aa-30a53651275c": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Features"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "0cbecd68-47e9-455c-a8aa-30a53651275c",
+                "pageId": "501aa414-feb7-4014-b855-7b14dda38b5f",
+                "tabInfo": {
+                    "activeTab": "76f004b6-4caa-4d7c-8f6d-de463fef2b74",
+                    "tabIds": [
+                        "76f004b6-4caa-4d7c-8f6d-de463fef2b74"
+                    ],
+                    "tabTitles": {
+                        "76f004b6-4caa-4d7c-8f6d-de463fef2b74": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "5556dd13-ead6-467b-bc0c-1a689dd261b9": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Networks"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "5556dd13-ead6-467b-bc0c-1a689dd261b9",
+                "pageId": "590bf8bd-8c64-4fac-8c08-1f470827dad7",
+                "tabInfo": {
+                    "activeTab": "0239b016-55dc-403e-bb24-71540134bf03",
+                    "tabIds": [
+                        "0239b016-55dc-403e-bb24-71540134bf03"
+                    ],
+                    "tabTitles": {
+                        "0239b016-55dc-403e-bb24-71540134bf03": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "5716e1be-41bf-4d72-b4ed-14958794bc17": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "5716e1be-41bf-4d72-b4ed-14958794bc17",
+                "pageId": "52dadeef-b2a7-4cc6-b0df-180ed6b4a193",
+                "tabInfo": {
+                    "activeTab": "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec",
+                    "tabIds": [
+                        "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec"
+                    ],
+                    "tabTitles": {
+                        "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "597190b0-2c25-449c-9f5a-40dccf63bf69": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Network Group Details"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "597190b0-2c25-449c-9f5a-40dccf63bf69",
+                "pageId": "d538bb50-389f-474f-ae32-3bdea85750a3",
+                "tabInfo": {
+                    "activeTab": "5c907ecc-3e84-42bc-b804-37bed3bdad41",
+                    "tabIds": [
+                        "5c907ecc-3e84-42bc-b804-37bed3bdad41"
+                    ],
+                    "tabTitles": {
+                        "5c907ecc-3e84-42bc-b804-37bed3bdad41": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "60921627-d9f0-4f63-99a4-5ea2dbca05f7": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Feature Details"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "60921627-d9f0-4f63-99a4-5ea2dbca05f7",
+                "pageId": "501aa414-feb7-4014-b855-7b14dda38b5f",
+                "tabInfo": {
+                    "activeTab": "ea6d3940-0ded-4bb8-be6c-442f2211e884",
+                    "tabIds": [
+                        "ea6d3940-0ded-4bb8-be6c-442f2211e884"
+                    ],
+                    "tabTitles": {
+                        "ea6d3940-0ded-4bb8-be6c-442f2211e884": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "6a78a617-6295-4d53-b232-26fcf1372b75": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "6a78a617-6295-4d53-b232-26fcf1372b75",
+                "pageId": "08e4bb08-053c-4235-b112-9ac81f016f61",
+                "tabInfo": {
+                    "activeTab": "2650df8c-cb2f-4b21-85f1-b88729d584b8",
+                    "tabIds": [
+                        "2650df8c-cb2f-4b21-85f1-b88729d584b8"
+                    ],
+                    "tabTitles": {
+                        "2650df8c-cb2f-4b21-85f1-b88729d584b8": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "726c019f-97d8-4189-8c10-4c0fccd06771": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "726c019f-97d8-4189-8c10-4c0fccd06771",
+                "pageId": "52dadeef-b2a7-4cc6-b0df-180ed6b4a193",
+                "tabInfo": {
+                    "activeTab": "0a9d7354-42f4-4014-81c6-86315446595b",
+                    "tabIds": [
+                        "0a9d7354-42f4-4014-81c6-86315446595b"
+                    ],
+                    "tabTitles": {
+                        "0a9d7354-42f4-4014-81c6-86315446595b": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "7a709e8b-f944-43af-a571-83c01f4342bf": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Network Groups"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "7a709e8b-f944-43af-a571-83c01f4342bf",
+                "pageId": "d538bb50-389f-474f-ae32-3bdea85750a3",
+                "tabInfo": {
+                    "activeTab": "1bd43851-1a00-46e5-97c8-c69465515cca",
+                    "tabIds": [
+                        "1bd43851-1a00-46e5-97c8-c69465515cca"
+                    ],
+                    "tabTitles": {
+                        "1bd43851-1a00-46e5-97c8-c69465515cca": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "bf52ad03-93df-4afd-824f-41fd3073b1fa": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Network Details"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "bf52ad03-93df-4afd-824f-41fd3073b1fa",
+                "pageId": "590bf8bd-8c64-4fac-8c08-1f470827dad7",
+                "tabInfo": {
+                    "activeTab": "926f2bef-8b20-4b3d-b2ee-396d8987c9f7",
+                    "tabIds": [
+                        "926f2bef-8b20-4b3d-b2ee-396d8987c9f7"
+                    ],
+                    "tabTitles": {
+                        "926f2bef-8b20-4b3d-b2ee-396d8987c9f7": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "206d6ee8-062f-4e45-8eca-78eccf9bc5ac": {
+                "externalScripts": [],
+                "id": "206d6ee8-062f-4e45-8eca-78eccf9bc5ac",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "feature_group": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "option",
+                            "key": "bc8ae4e6-4b4c-4e71-a26c-3b43f106ef56",
+                            "label": "Feature Group",
+                            "name": "feature_group",
+                            "orderIdx": 2,
+                            "widthPercent": 50
+                        },
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+                            "label": "Feature Name",
+                            "name": "name",
+                            "orderIdx": 1,
+                            "widthPercent": 50
+                        },
+                        "states": {
+                            "dataType": "string",
+                            "display": true,
+                            "errorText": "Must be a valid email",
+                            "inputType": "HTML",
+                            "key": "cfd6c6e6-85c4-45e3-b62f-df232434fa2c",
+                            "label": "States",
+                            "name": "states",
+                            "orderIdx": 2,
+                            "parser": {
+                                "CSS": "#my-HTML-states {\n    color: orange;\n}",
+                                "HTML": "\u003cdiv id=\"states\"\u003e\n  \u003cdiv\u003e\n    \u003cdiv style=\"display:inline\" class=\"labeltext\"\u003eStates\u003c/div\u003e\n    \u003cdiv id=\"AddButton\" class=\"btn btn-link float-right\"\u003eAdd State\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv id=\"FeatureStates\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "\n\nvar addState = function(value, position){\n    var state = $(\"\u003cdiv\u003e\").attr({\n        id: \"state\"+position\n    });\n    var stateDel = $(\"\u003cspan\u003eDelete\u003c/span\u003e\").attr({\n        display:'inline',\n        position:position\n    })\n    stateDel.click(function(event){\n        var pos = event.target.getAttribute(\"position\");\n        var label =\"state\"+pos\n        $(\"#\"+label).remove();\n    });\n    \n    var stateInput = $('\u003cinput\u003e').attr({\n        type: 'text',\n        id: 'stateInput'+position,\n        value: value,\n        class:'form-control',\n    });\n    stateInput.css(\"width\",\"75%\");\n    stateInput.css(\"display\",\"inline\");\n    state.append(stateInput);\n    state.append(stateDel);\n    $(\"#FeatureStates\").append(state)\n    \n    \n}\n$(\"#FeatureStates\").empty();\n\nvar states = JSON.parse(this.value);\nfor(var i=0;i\u003cstates.length;i++){\n    addState(states[i], i);\n}\nif (!window.hasSubscribedtoAddButton){\n    window.hasSubscribedtoAddButton = true;\n    $(\"#AddButton\").click(function(event){\n        \n        addState();\n    });   \n}\n\n\n\n"
+                            },
+                            "required": true,
+                            "validationType": "",
+                            "widthPercent": 100
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": "\nvar refreshFeatures = function(){\n    datasources.fetchFeatures.sendData();\n}\n\nvar getAllStates= function(){\n    var stateObjs = $(\"#FeatureStates\").children().map(function(){\n        return $(this).find(\"input\").val();\n    });\n    return JSON.stringify(stateObjs.toArray());\n}\n\nvar selectedFeature = datasources.selectedFeature.latestData();\nif (selectedFeature.item_id==\"unset\"){\n    datasources.createFeatures.sendData({\"item\":this.widget.data}).then(function(){\n        refreshFeatures();\n    });\n} else{\n    //Update a current feature\n    selectedFeature.name = this.widget.data.name;\n    var states = getAllStates();\n    selectedFeature.states= states;//this.widget.data.states;\n\n    datasources.updateFeatures.sendData({\"item\":selectedFeature}).then(function(){\n        refreshFeatures();\n    });\n}\n\n"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e742b9c6-17d7-4e82-88f6-d8f3fcc1ee1e",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "\nvar form = {\"data\":{\"item_id\":\"someUniqueIdForItem\",\"name\":\"itemName\"}};\n\nform.data = this.datasource;\nreturn form;"
+                        }
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Submit",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "ea6d3940-0ded-4bb8-be6c-442f2211e884",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "2a578a46-3af5-4f6f-9e12-d97d41896b6a": {
+                "externalScripts": [],
+                "id": "2a578a46-3af5-4f6f-9e12-d97d41896b6a",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003cdiv id=\"myTestButton\"\u003eClick Me\u003c/div\u003e\n  \u003cdiv id=\"myResponse\"\u003eUnset\u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(\"#myTestButton\").click(function(){\n    datasources.helloWorld.sendData({\"name\":\"Rich\"}).then(function(){\n        alert(\"I was called back\")\n        debugger;\n        \n        var r = datasources.helloWorld.latestData().results;\n        $(\"myResponse\").html( r)\n    })\n})"
+                        }
+                    }
+                },
+                "tab": "2650df8c-cb2f-4b21-85f1-b88729d584b8",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "507c5834-9dba-4d46-be36-8a3e810b2bac": {
+                "externalScripts": [],
+                "id": "507c5834-9dba-4d46-be36-8a3e810b2bac",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "animal": {
+                            "dataType": "string",
+                            "description": "Enter the type of animal you are",
+                            "display": true,
+                            "dropdownOptions": [
+                                "octopus",
+                                "human",
+                                "dog",
+                                "cat",
+                                "tiger",
+                                "lion",
+                                "giraffe",
+                                "monkey"
+                            ],
+                            "inputType": "typeAhead",
+                            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+                            "label": "Type of Animal",
+                            "name": "animal",
+                            "orderIdx": 1,
+                            "widthPercent": 100
+                        },
+                        "flowers": {
+                            "dataType": "string",
+                            "display": true,
+                            "dropdownOptions": [
+                                "Daisy",
+                                "Rose",
+                                "Blue Bonnett",
+                                "Petunia",
+                                "Violet",
+                                "Christanthinum",
+                                "Marigold",
+                                "Dogwood",
+                                null,
+                                null
+                            ],
+                            "inputType": "option",
+                            "key": "b5475bf9-e9ae-46a9-bda9-329eebc57cf5",
+                            "label": "Enter your Flower Type",
+                            "name": "flowers",
+                            "orderIdx": 3,
+                            "widthPercent": 50
+                        },
+                        "food": {
+                            "dataType": "string",
+                            "display": true,
+                            "dropdownOptions": [
+                                "Pizza",
+                                "Hamburger",
+                                "Spaghetti",
+                                "Fish Sticks",
+                                "Chicken Nuggets",
+                                "Fried Pickles",
+                                "Steamed Carrots",
+                                "Roasted Broccoli",
+                                "Caramel Apples",
+                                "Layered Onions",
+                                "Stinky Bacon",
+                                "Rotten Fish",
+                                "Slimy Cheese",
+                                "Summer Apricots",
+                                null
+                            ],
+                            "inputType": "option",
+                            "key": "84343a3b-f164-4b04-831a-5a80c81fea94",
+                            "label": "Enter your Food",
+                            "name": "food",
+                            "orderIdx": 2,
+                            "widthPercent": 50
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        },
+                        "value": "console.log(this.widget.data);\n\n// return datasources.MY_CODE_SERVICE_NAME.sendData(this.widget.data).then(function (res) {\n//     if (res.success) {\n//         console.log('Successfully created: ', res.results)\n//     } else {\n//         console.log('error: ', res.results)\n//     }\n//     return res\n// })\n\nreturn {}"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": "\n/**\n * @type {FormSourceObj}\n */\nvar formSourceObj = {\n  data: {\n    last_name: 'Miller',\n  }\n};\n\nreturn formSourceObj\n\n// // EXAMPLE of advanced features\n// const stateToCity = {\n//   Texas: ['Austin', 'Dallas', 'El Paso'],\n//   California: ['San Francisco', 'Los Angeles']\n// }\n\n// /**\n//  * @type {FormSourceObj}\n//  */\n// var formSourceObj = {\n//   // the initial data the form has when loaded\n//   data: { state: \"Texas\" },\n\n//   // gets called every time something in the form changes\n//   onUpdate: function (arg) {\n//     if (arg.currentValues.state) {\n//       var cityOptions = stateToCity[arg.currentValues.state]\n//       arg.fieldSettings.city.dropdownOptions = cityOptions\n//     }\n//     return arg\n//   },\n\n//   // an object the same shape as fieldSettings, that is merged with the settings from the UI\n//   // useful for adding dynamic things like dropdown options from a collection\n//   overrideFieldSettings: {\n//     state: {\n//       name: 'state', dataType: 'string', display: true, orderIdx: 5, key: '3f4eeddd-3917-4099-9e3d-68d7e878568d', options: { dropdownOptions: ['Texas', 'California'] }, inputType: 'BUTTON_GROUP', dropdownOptions: ['Texas', 'California'],\n//     },\n//     city: {\n//       name: 'city', dataType: 'string', display: true, orderIdx: 6, key: 'cfd6c6e6-85c4-45e3-b62f-df232434fa2c', options: {}, inputType: 'BUTTON_GROUP', dropdownOptions: ['Austin', 'Dallas', 'El Paso'],\n//     },\n//   }\n// };\n// return formSourceObj\n"
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Submit",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "2650df8c-cb2f-4b21-85f1-b88729d584b8",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "78cf8867-27ae-4445-88c1-cbb438cc7ce0": {
+                "externalScripts": [],
+                "id": "78cf8867-27ae-4445-88c1-cbb438cc7ce0",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "item_id": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "readOnly",
+                            "key": "f3f0ded9-96af-406c-bcf7-5269c32d02be",
+                            "label": "Item ID",
+                            "name": "item_id",
+                            "orderIdx": 4
+                        },
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+                            "label": "Name",
+                            "name": "name",
+                            "orderIdx": 1,
+                            "widthPercent": 50
+                        },
+                        "notes": {
+                            "dataType": "string",
+                            "display": true,
+                            "errorText": "",
+                            "inputType": "textArea",
+                            "key": "cfd6c6e6-85c4-45e3-b62f-df232434fa2c",
+                            "label": "Notes",
+                            "name": "notes",
+                            "orderIdx": 2,
+                            "required": false,
+                            "validationType": "",
+                            "widthPercent": 100
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        },
+                        "value": "console.log(this.widget.data);\nvar payload ={\"item\":this.widget.data}\nreturn datasources.updateFeatureGroups.sendData(payload).then(function (res) {\n    if (res.success) {\n        console.log('Successfully updated: ', res.results)\n        datasources.fetchFeatureGroups.sendData()\n    } else {\n        console.log('error updating: ', res.results)\n    }\n    return res\n})\n\nreturn {}"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e7dcd69b-db73-4ca2-992e-5cdbb36c0ec3",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "\nvar form = {\"data\":{\"item_id\":\"someUniqueIdForItem\",\"name\":\"itemName\"}};\n\nform.data = this.datasource;\nreturn form;"
+                        }
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Submit",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "5a26ab4b-4985-4d6b-848c-98fc9d86a4ec",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "90308f59-12a6-4aa0-ad3d-cc153f202665": {
+                "externalScripts": [],
+                "id": "90308f59-12a6-4aa0-ad3d-cc153f202665",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeItemBackgroundColor": "#6e8592",
+                    "activeItemFontColor": "#000000",
+                    "enableListAutoSelect": false,
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "852aff79-490a-443a-9e19-5983e1304f90",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "\nCB_PORTAL.selectPage(this.widget.item_id);\nCB_PORTAL.toggleFlyout();\nreturn this.widget;"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": "return [\n    {\"label\": \"Home\", \"value\":{\"item_id\": \"/Home\"}},\n    {\"label\": \"Features\", \"value\":{\"item_id\": \"/Features\"}},\n    {\"label\": \"Feature Groups\", \"value\":{\"item_id\": \"/FeatureGroups\"}},\n    {\"label\": \"Networks\", \"value\":{\"item_id\": \"/Networks\"}},\n    {\"label\": \"Network Groups\", \"value\":{\"item_id\": \"/Groups\"}},\n    {\"label\": \"Test Network\", \"value\":{\"item_id\": \"/TestNetwork\"}}\n];"
+                    },
+                    "titleColor": "#000000",
+                    "trackingColumnName": "item_id"
+                },
+                "tab": null,
+                "type": "LIST_WIDGET_COMPONENT"
+            },
+            "91a1af50-dcfa-46b6-863b-7261713d9882": {
+                "externalScripts": [],
+                "id": "91a1af50-dcfa-46b6-863b-7261713d9882",
+                "props": {
+                    "addItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "a9a41743-acb5-4889-abe2-a974db5eaec6",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "var ret = {item:this.widget.data}\nreturn ret;"
+                        }
+                    },
+                    "allowAdd": true,
+                    "allowDelete": true,
+                    "allowExport": false,
+                    "allowHighlight": true,
+                    "allowSearch": true,
+                    "allowUpdate": false,
+                    "deleteItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "cc39936a-fd60-41b0-bfb3-67b98f12493f",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "editCells": {
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "readOnly",
+                            "key": "ab2fce3c-0b37-4578-8529-0cd5666382f2",
+                            "name": "name",
+                            "orderIdx": 1
+                        }
+                    },
+                    "enableSorting": false,
+                    "evenStripeColor": "#F7F7F7",
+                    "fetchGridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b29ea609-c999-4ae6-b15f-ce892e33e447",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    },
+                    "gridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b29ea609-c999-4ae6-b15f-ce892e33e447",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "/** @type {GridSourceObj} */\nvar gridData = {\n  data: this.datasource.results.DATA,\n  count: this.datasource.results.TOTAL,\n  keyColumn: 'item_id',\n  // highlightId: '',\n  // overrideFieldSettings: {},\n  columns: [ // whitelists what columns work for sort and filter and create modal\n    { ColumnName: 'name', ColumnType: 'string', custom: true },\n  ],\n}          \n\nreturn gridData"
+                        }
+                    },
+                    "hidePaginationWhenNotNeeded": true,
+                    "highlightColor": "#b7cad9",
+                    "highlightItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "a9421f3f-f4ac-4891-94d4-a478c2495a09",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget.item"
+                        }
+                    },
+                    "oddStripeColor": "#FFFFFF",
+                    "pageSize": 25,
+                    "updateItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b29ea609-c999-4ae6-b15f-ce892e33e447",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    }
+                },
+                "tab": "1bd43851-1a00-46e5-97c8-c69465515cca",
+                "type": "CrudgridWidget"
+            },
+            "af5b7ea2-0835-4941-a550-1cd0316f25a1": {
+                "externalScripts": [],
+                "id": "af5b7ea2-0835-4941-a550-1cd0316f25a1",
+                "props": {
+                    "addItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "ed2672b7-25e5-4c46-a16c-3abae76d8742",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "var ret = {item:this.widget.data}\nreturn ret;\n// return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "allowAdd": true,
+                    "allowDelete": true,
+                    "allowExport": false,
+                    "allowHighlight": true,
+                    "allowSearch": false,
+                    "allowUpdate": false,
+                    "deleteItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e236f638-7a71-4a1e-be8d-60e4377dbfed",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "editCells": {
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "HTML_STRING",
+                            "key": "45acdf9f-6408-4d02-aebf-923c6dfc14d4",
+                            "label": "Network Name",
+                            "name": "name",
+                            "orderIdx": 1
+                        }
+                    },
+                    "enableSorting": true,
+                    "evenStripeColor": "#F7F7F7",
+                    "fetchGridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "4d8e0e7e-b77b-4071-9ebe-ebf726a014fc",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    },
+                    "gridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "4d8e0e7e-b77b-4071-9ebe-ebf726a014fc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "// /** @type {GridSourceObj} */\n// var gridData = {\n//   data: this.datasource.results.DATA,\n//   count: this.datasource.results.TOTAL,\n//   keyColumn: 'item_id',\n//   // highlightId: '',\n//   // overrideFieldSettings: {},\n//   // columns: [ // whitelists what columns work for sort and filter and create modal\n//   //   { ColumnName: 'name', ColumnType: 'string', custom: true },\n//   // ],\n// }          \n\n// return gridData\n\n\n/** @type {GridSourceObj} */\n\nvar gridData = {\n  data: this.datasource.results.DATA,\n  count: this.datasource.results.TOTAL,\n  keyColumn: 'item_id',\n  // highlightId: '',\n  // overrideFieldSettings: {},\n  columns: [ // whitelists what columns work for sort and filter and create modal\n    { ColumnName: 'name', ColumnType: 'string', custom: true },\n  ],\n}        \n\ngridData.data = gridData.data.map(d =\u003e ({\n  ...d,\n  //event_type_id: (eventTypeIcons.find(t =\u003e t.item_id === d.event_type_id) || {}).icon,\n  name: d.name\n}))  \n\nreturn gridData"
+                        }
+                    },
+                    "hidePaginationWhenNotNeeded": true,
+                    "highlightColor": "#b7cad9",
+                    "highlightItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "122a5487-8b09-463d-b09f-9e8a01d5af63",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "\nreturn this.widget.item;"
+                        }
+                    },
+                    "oddStripeColor": "#FFFFFF",
+                    "pageSize": 25,
+                    "updateItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "4d8e0e7e-b77b-4071-9ebe-ebf726a014fc",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    }
+                },
+                "tab": "0239b016-55dc-403e-bb24-71540134bf03",
+                "type": "CrudgridWidget"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "c0bab29c-ebd4-4465-8b2c-cb2d3f1def7a": {
+                "externalScripts": [],
+                "id": "c0bab29c-ebd4-4465-8b2c-cb2d3f1def7a",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "absent_prob": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "dcb8c80b-fd23-4360-93e5-670f522865fc",
+                            "label": "Absent Probability",
+                            "name": "absent_prob",
+                            "orderIdx": 2,
+                            "widthPercent": 50
+                        },
+                        "groupid": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "option",
+                            "key": "f773e5a5-5ceb-4684-8f67-0401ae9afaa2",
+                            "label": "Group",
+                            "name": "groupid",
+                            "orderIdx": 2,
+                            "widthPercent": 50
+                        },
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+                            "label": "Network Name",
+                            "name": "name",
+                            "orderIdx": 1,
+                            "widthPercent": 50
+                        },
+                        "nodes": {
+                            "allowNew": true,
+                            "dataType": "string",
+                            "display": true,
+                            "dropdownOptions": [],
+                            "inputType": "HTML",
+                            "key": "415a05f6-a268-49d4-97a6-5255a63d6d0f",
+                            "label": "Nodes",
+                            "name": "nodes",
+                            "orderIdx": 2,
+                            "parser": {
+                                "CSS": "#my-HTML-nodes {\n    color: orange;\n}",
+                                "HTML": "\u003cdiv id=\"nodes\"\u003e \n  \u003cdiv\u003e\n    \u003cdiv style=\"display:inline\" class=\"labeltext\" id=\"NodesLabel\"\u003eNodes\u003c/div\u003e\n    \u003cdiv id=\"AddNodeButton\" class=\"btn btn-link float-right\"\u003eAdd Node\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv id=\"NetworkNodes\"\u003e\n   \n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "\n// var summarizeNodesForSave = function(){\n//     var nodesSave = [];\n//     var networkNodes = $(\"#NetworkNodes\");\n//     for (var i=0; i\u003cnetworkNodes.children().length; i++){\n//         debugger;\n//         var networkNode = $(networkNodes.children()[i]);\n//         var nodeSave ={\n//             \"name\": \"\",\n//             \"probabilities_present\": [],\n//             \"probabilities_absent\": []\n//         };\n//         var selectInput = networkNode.find(\"#featureSelect\");//[i];\n//         nodeSave.name=selectInput.val();\n//         var presentProbs = networkNode.find(\".presentProbInput\");\n//         var absentProbs = networkNode.find(\".absentProbInput\");\n//         for (var j=0;j\u003cpresentProbs.length;j++){\n//             nodeSave.probabilities_present.push(presentProbs[j].value);\n//             nodeSave.probabilities_absent.push(absentProbs[j].value);\n//         }\n//         nodesSave.push(nodeSave);\n//     }\n//     alert(JSON.stringify(nodesSave));\n// }\n\n// $(\"#NodesLabel\").click(summarizeNodesForSave);\n \nvar createProbabilitySection = function(nodeVal, selectedFeature){\n    var featureState = [];\n    var features = datasources.fetchFeatures.latestData().results.DATA;\n    for (var i=0; i\u003c features.length; i++){\n        if (nodeVal.name == features[i].name){\n            featureStates = features[i].states\n        }\n    }\n    probabilityContainer = $('\u003cdiv class=\"container\"\u003e');\n    probabilityHeader = $(`\u003cdiv class=\"row\"\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              Feature State\n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              Present Probability\n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              Absent Probability\n            \u003c/div\u003e\n          \u003c/div\u003e`);\n    probabilityContainer.append(probabilityHeader)\n    var states = JSON.parse(selectedFeature.states)\n    for(var i =0; i\u003cstates.length;i++){\n        var presentProb = 0;\n        var absentProb =0;\n        if (typeof nodeVal.new === \"undefined\"){\n            presentProb = nodeVal.probabilities_present[i];\n            absentProb = nodeVal.probabilities_absent[i]\n        }\n        var probabilityRow= `\u003cdiv class=\"row\"\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              \u003cb\u003e`+states[i]+ `\u003c/b\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\"\u003e\n              \u003cdiv class=\"input-group\"\u003e\n                \u003cinput class=\"form-control presentProbInput\" value=\"`+presentProb+`\"\u003e\u003c/input\u003e\n                \u003cdiv class=\"input-group-append\"\u003e\n                  \u003cdiv class=\"input-group-text\"\u003e\u003ci class=\"fa fa-percent\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e\n                \u003c/div\u003e\n              \u003c/div\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\"\u003e\n              \u003cdiv class=\"input-group\"\u003e\n                \u003cinput class=\"form-control absentProbInput\" value=\"`+absentProb+`\"\u003e\u003c/input\u003e\n                \u003cdiv class=\"input-group-append\"\u003e\n                  \u003cdiv class=\"input-group-text\"\u003e\u003ci class=\"fa fa-percent\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e\n                \u003c/div\u003e\n              \u003c/div\u003e\n            \u003c/div\u003e\n          \u003c/div\u003e`\n          probabilityContainer.append(probabilityRow)\n    }\n\n    probabilityFooter = $(`\u003cdiv class=\"row\"\u003e\n            \u003cdiv class=\"col-sm\"\u003e\n              \n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              1.0\n            \u003c/div\u003e\n            \u003cdiv class=\"col-sm\" style=\"text-align:center\"\u003e\n              .999\n            \u003c/div\u003e\n          \u003c/div\u003e`);\n    probabilityContainer.append(probabilityFooter)\n    return probabilityContainer;\n}\n\nvar selectFeatureHTML = function(features) {\n    var selectObj = $(`\u003cselect class=\"custom-select\" id=\"featureSelect\"\u003e`);\n    for(var i =0;i\u003cfeatures.length;i++){\n        selectObj.append($(`\u003coption value=\"`+features[i].name+`\"}\u003e`+features[i].name+`\u003c/option\u003e`));\n    }\n    return selectObj;\n}\n\nvar getFeatureByName = function(features, featureName){\n    for(var i =0;i\u003cfeatures.length;i++){\n        if (features[i].name == featureName){\n            selectedFeature = features[i];\n            return selectedFeature;\n        }\n    }\n}\n\nvar addNode = function(value){\n    debugger;\n    var features = datasources.fetchFeatures.latestData().results.DATA;\n    var selectedFeature = getFeatureByName(features, value.name);;\n    // for(var i =0;i\u003cfeatures.length;i++){\n    //     if (features[i].name == value.name){\n    //         selectedFeature = features[i];\n    //     }\n    // }\n    var selectFeatureObj = selectFeatureHTML(features);\n    selectFeatureObj.val(value.name)\n    selectFeatureObj.on(\"change\", function(event){\n        //remove old probsection\n        event.target.parentElement.parentElement.children[1].remove()\n        //build the new prob section\n        var features = datasources.fetchFeatures.latestData().results.DATA;\n        var selectedFeatureName = event.target.options[event.target.selectedIndex].value;\n        var selectedFeature = getFeatureByName(features, selectedFeatureName)\n        var newNode = {\"name\":selectedFeatureName, \"new\":true}\n        var probabilitySectionObj = createProbabilitySection(newNode, selectedFeature)\n        // convert to jquery obj\n        jqueryObj = $(event.target.parentElement.parentElement)\n        jqueryObj.append(probabilitySectionObj);\n        //updateProbabilitySection(event.target.parent.parent, selectedFeature);\n    \n    });\n    var inputGroupObj = $(`\u003cdiv class=\"input-group\"\u003e\n                            \u003cdiv class=\"labeltext\" style=\"padding-top:8px;padding-right:8px\"\u003e\n                            \u003c/div\u003e\n                            \u003c/div\u003e`);\n    inputGroupObj.append(selectFeatureObj);   \n\n    var deleteFeatureObj = $(`\u003cdiv class=\"input-group-text\"\u003e\u003ci class=\"fa fa-trash\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e`);\n    deleteFeatureObj.on(\"click\",function(event){\n        event.target.parentElement.parentElement.parentElement.remove();\n    })\n    inputGroupObj.append(deleteFeatureObj);\n    var node = $(\"\u003cdiv\u003e\").attr({\n        id: \"node\"\n    }); \n    node.append(inputGroupObj);\n    var probabilitySectionObj = createProbabilitySection(value, selectedFeature);\n    node.append(probabilitySectionObj);\n    \n    \n    \n    $(\"#NetworkNodes\").append(node) \n}\n$(\"#NetworkNodes\").empty();\n// if (typeof this.value!==\"undefined\"){\ntry{\n    var nodes = JSON.parse(this.value);\n    for(var i=0;i\u003cnodes.length;i++){\n        addNode(nodes[i]);\n    }\n}catch(e){\n    console.log(\"Failed to JSON parse the network nodes\")\n}\n    \n// }\n\nif (!window.hasSubscribedtoAddNodeButton){\n   window.hasSubscribedtoAddNodeButton = true;\n\n    $(\"#AddNodeButton\").click(function(event){\n        debugger;\n        var temp={name:\"age\",\n            probabilities_present :[0.170000, 0.530000, 0.300000],\n            probabilities_absent :[0.297800, 0.473400, 0.228800]}\n        addNode(temp);\n    });   \n}"
+                            }
+                        },
+                        "present_prob": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "67ada275-17b6-4344-9362-4488255d6bcc",
+                            "label": "Present Probability",
+                            "name": "present_prob",
+                            "orderIdx": 2,
+                            "widthPercent": 50
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        },
+                        "value": "\nvar refreshNetworks = function(){\n    datasources.fetchNetworks.sendData();\n}\n\nvar summarizeNodesForSave = function(){\n    var nodesSave = [];\n    var networkNodes = $(\"#NetworkNodes\");\n    for (var i=0; i\u003cnetworkNodes.children().length; i++){\n        var networkNode = $(networkNodes.children()[i]);\n        var nodeSave ={\n            \"name\": \"\",\n            \"probabilities_present\": [],\n            \"probabilities_absent\": []\n        };\n        var selectInput = networkNode.find(\"#featureSelect\");//[i];\n        nodeSave.name=selectInput.val();\n        var presentProbs = networkNode.find(\".presentProbInput\");\n        var absentProbs = networkNode.find(\".absentProbInput\");\n        for (var j=0;j\u003cpresentProbs.length;j++){\n            nodeSave.probabilities_present.push(presentProbs[j].value);\n            nodeSave.probabilities_absent.push(absentProbs[j].value);\n        }\n        nodesSave.push(nodeSave);\n    }\n    // alert(JSON.stringify(nodesSave));\n    return nodesSave;\n}\n\nvar selectedNetwork = datasources.selectedNetwork.latestData();\nif (selectedNetwork.item_id==\"unset\"){\n    datasources.createNetworks.sendData({\"item\":this.widget.data}).then(function(){\n        refreshNetworks();\n    });\n} else{\n    //Update a current feature\n    debugger;\n    selectedNetwork.name = this.widget.data.name;\n    selectedNetwork.groupid = this.widget.data.groupid;\n    selectedNetwork.present_prob = this.widget.data.present_prob;\n    selectedNetwork.absent_prob = this.widget.data.absent_prob;\n    selectedNetwork.nodes= JSON.stringify(summarizeNodesForSave());//this.widget.data.nodes;\n\n    datasources.updateNetworks.sendData({\"item\":selectedNetwork}).then(function(){\n        refreshNetworks();\n    });\n}\n"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "122a5487-8b09-463d-b09f-9e8a01d5af63",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var form = {\"data\":{\"item_id\":\"someUniqueIdForItem\",\"name\":\"itemName\"}};\nvar myOptions = (datasources.fetchGroups.latestData().results.DATA || []).map(function(el) {\n  var item = el.data || el\n  return { name: item.name, value: item.item_id };\n});\n\n// return {\n//   overrideFieldSettings: {\n//     group: {\n//       dropdownOptions: myOptions,\n//     },\n//   }\n// };\n\nform.data = this.datasource;\nform.overrideFieldSettings= {\n    groupid:{\n        dropdownOptions:myOptions\n    }\n}\nreturn form;"
+                        }
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Save Network",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "926f2bef-8b20-4b3d-b2ee-396d8987c9f7",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "d0cff53a-ee1d-4ccc-8f65-aa87d43ada55": {
+                "externalScripts": [],
+                "id": "d0cff53a-ee1d-4ccc-8f65-aa87d43ada55",
+                "props": {
+                    "addItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b1bcae13-166e-449a-b14d-ddf36f577615",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "var ret ={\"item\":this.widget.data}\nreturn ret;\n\n// return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "allowAdd": true,
+                    "allowDelete": true,
+                    "allowExport": false,
+                    "allowHighlight": true,
+                    "allowSearch": false,
+                    "allowUpdate": false,
+                    "defaultSortAsc": true,
+                    "deleteItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "367db343-6182-4a44-80cb-f2859d89ef2d",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "editCells": {
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "readOnly",
+                            "key": "81cf5379-e57b-474a-a5e4-a67610185bf6",
+                            "label": "Name",
+                            "name": "name",
+                            "orderIdx": 1
+                        }
+                    },
+                    "enableSorting": false,
+                    "evenStripeColor": "#F7F7F7",
+                    "fetchGridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5139f3dc-106d-4122-a92d-840a14a72b4e",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    },
+                    "gridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5139f3dc-106d-4122-a92d-840a14a72b4e",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "/** @type {GridSourceObj} */\nvar gridData = {\n  data: this.datasource.results.DATA,\n  count: this.datasource.results.TOTAL,\n  keyColumn: 'item_id',\n  // highlightId: '',\n  // overrideFieldSettings: {},\n  columns: [ // whitelists what columns work for sort and filter and create modal\n    { ColumnName: 'name', ColumnType: 'string', custom: true },\n  ],\n}          \n\nreturn gridData"
+                        }
+                    },
+                    "hidePaginationWhenNotNeeded": true,
+                    "highlightColor": "#b7cad9",
+                    "highlightItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e7dcd69b-db73-4ca2-992e-5cdbb36c0ec3",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget.item"
+                        }
+                    },
+                    "oddStripeColor": "#FFFFFF",
+                    "pageSize": 25,
+                    "updateItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5139f3dc-106d-4122-a92d-840a14a72b4e",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    }
+                },
+                "tab": "0a9d7354-42f4-4014-81c6-86315446595b",
+                "type": "CrudgridWidget"
+            },
+            "edd74ee4-1308-429d-9bf8-f4fd61eeb24f": {
+                "externalScripts": [],
+                "id": "edd74ee4-1308-429d-9bf8-f4fd61eeb24f",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "item_id": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "readOnly",
+                            "key": "0336d010-c9a6-4b97-9dcb-b8f59ab202a1",
+                            "label": "Item ID",
+                            "name": "item_id",
+                            "orderIdx": 3
+                        },
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "text",
+                            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+                            "label": "Group Name",
+                            "name": "name",
+                            "orderIdx": 1,
+                            "widthPercent": 100
+                        },
+                        "notes": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "textArea",
+                            "key": "08d7e927-1036-4fcb-ab4d-3d5fc52280f0",
+                            "label": "Notes",
+                            "name": "notes",
+                            "orderIdx": 2
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": "console.log(this.widget.data);\nvar payload ={\"item\":this.widget.data}\nreturn datasources.updateGroups.sendData(payload).then(function (res) {\n    if (res.success) {\n        console.log('Successfully updated: ', res.results)\n    } else {\n        console.log('error updating: ', res.results)\n    }\n    return res\n})\n\nreturn {}"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "a9421f3f-f4ac-4891-94d4-a478c2495a09",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var form = {\"data\":{}};\n\nform.data = this.datasource;\nreturn form;\n\n// return this.datasource;"
+                        }
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Submit",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "5c907ecc-3e84-42bc-b804-37bed3bdad41",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "f7ba57de-c031-446b-acbf-209c4f1989c4": {
+                "externalScripts": [],
+                "id": "f7ba57de-c031-446b-acbf-209c4f1989c4",
+                "props": {
+                    "addItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "f07e613f-ccdf-4f6f-947b-8b4026eda1cf",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "\n// debugger;\nvar ret ={\"item\":this.widget.data}\nreturn ret;\n// return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "allowAdd": true,
+                    "allowDelete": true,
+                    "allowExport": false,
+                    "allowHighlight": true,
+                    "allowSearch": false,
+                    "allowUpdate": false,
+                    "deleteItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "4df8f0cc-9cde-40e4-b0c9-922243aee363",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "editCells": {
+                        "name": {
+                            "dataType": "string",
+                            "display": true,
+                            "inputType": "readOnly",
+                            "key": "44af3e7a-2162-4b49-80e6-ba9d4330229c",
+                            "label": "Name",
+                            "name": "name",
+                            "orderIdx": 1
+                        }
+                    },
+                    "enableSorting": false,
+                    "evenStripeColor": "#F7F7F7",
+                    "fetchGridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "906b2d38-4ee9-4721-b39a-1cf0c0dd9c59",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return { cbQuery: this.widget.query.query }"
+                        }
+                    },
+                    "gridData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "906b2d38-4ee9-4721-b39a-1cf0c0dd9c59",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "/** @type {GridSourceObj} */\n\nvar gridData = {\n  data: this.datasource.results.DATA,\n  count: this.datasource.results.TOTAL,\n  keyColumn: 'item_id',\n  // highlightId: '',\n  // overrideFieldSettings: {},\n  columns: [ // whitelists what columns work for sort and filter and create modal\n    { ColumnName: 'name', ColumnType: 'string', custom: true },\n  ],\n}        \n\ngridData.data = gridData.data.map(d =\u003e ({\n  ...d,\n  //event_type_id: (eventTypeIcons.find(t =\u003e t.item_id === d.event_type_id) || {}).icon,\n  name: d.name\n}))  \n\nreturn gridData"
+                        }
+                    },
+                    "hidePaginationWhenNotNeeded": true,
+                    "highlightColor": "#b7cad9",
+                    "highlightItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e742b9c6-17d7-4e82-88f6-d8f3fcc1ee1e",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "// return this.widget.highlightId\nreturn this.widget.item"
+                        }
+                    },
+                    "oddStripeColor": "#FFFFFF",
+                    "pageSize": 25,
+                    "updateItemParser": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "906b2d38-4ee9-4721-b39a-1cf0c0dd9c59",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    }
+                },
+                "tab": "76f004b6-4caa-4d7c-8f6d-de463fef2b74",
+                "type": "CrudgridWidget"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "11 Dec 18 20:55 UTC",
+    "name": "ModelManagerBackup1114PM",
+    "system_key": "f89081c10b94b2d2c0f28cd5f1db01",
+    "type": "custom_v2"
+}
