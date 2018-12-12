@@ -1,0 +1,41 @@
+{
+    "app_id": "f89081c10b94b2d2c0f28cd5f1db01",
+    "collection_id": "fc9081c10bd084fcc590bf9a9c8101",
+    "items": [],
+    "name": "Networks",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "nodes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "groupid",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "present_prob",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "absent_prob",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
