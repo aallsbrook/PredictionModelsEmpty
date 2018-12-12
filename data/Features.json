@@ -1,0 +1,31 @@
+{
+    "app_id": "f89081c10b94b2d2c0f28cd5f1db01",
+    "collection_id": "fc9081c10bce8889fae1b4ebc534",
+    "items": [],
+    "name": "Features",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "states",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "feature_group",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
