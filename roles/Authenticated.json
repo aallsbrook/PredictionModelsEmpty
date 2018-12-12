@@ -1,0 +1,198 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "createFeatureGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "createFeatures",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "createGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "createNetworks",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteFeatureGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteFeatures",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteNetworks",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchFeatureGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchFeatures",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchNetworks",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "runNetwork",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "updateFeatureGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "updateFeatures",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGroups",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "updateNetworks",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "f495e7be0bccaeef90c9aa94afeb01",
+                "Items": [],
+                "Level": 15,
+                "Name": "FeatureGroups"
+            },
+            {
+                "Columns": [],
+                "ID": "fa9081c10ba0adc8f3a6d5ddd8f301",
+                "Items": [],
+                "Level": 15,
+                "Name": "FeatureGroups"
+            },
+            {
+                "Columns": [],
+                "ID": "9aa0c3be0bcacfc9bb82a284eb43",
+                "Items": [],
+                "Level": 15,
+                "Name": "Features"
+            },
+            {
+                "Columns": [],
+                "ID": "fc9081c10bce8889fae1b4ebc534",
+                "Items": [],
+                "Level": 15,
+                "Name": "Features"
+            },
+            {
+                "Columns": [],
+                "ID": "bc9dc3be0ba6cfd99cd8aaaccdb901",
+                "Items": [],
+                "Level": 15,
+                "Name": "Groups"
+            },
+            {
+                "Columns": [],
+                "ID": "fc9081c10b8ef5d597fe9dc9f98401",
+                "Items": [],
+                "Level": 15,
+                "Name": "Groups"
+            },
+            {
+                "Columns": [],
+                "ID": "b29ec3be0bf8c9a7d4bda1f27a",
+                "Items": [],
+                "Level": 15,
+                "Name": "Networks"
+            },
+            {
+                "Columns": [],
+                "ID": "fc9081c10bd084fcc590bf9a9c8101",
+                "Items": [],
+                "Level": 15,
+                "Name": "Networks"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "ModelManager",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            },
+            {
+                "Level": 1,
+                "Name": "ModelManagerBackup1114PM",
+                "SystemKey": "f89081c10b94b2d2c0f28cd5f1db01"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
