@@ -1,0 +1,38 @@
+{
+    "app_id": "f89081c10b94b2d2c0f28cd5f1db01",
+    "collection_id": "fc9081c10b8ef5d597fe9dc9f98401",
+    "items": [
+        {
+            "item_id": "3ab068bb-cff8-4757-a525-d22380516e56",
+            "name": "UNSET",
+            "networks": "",
+            "notes": ""
+        }
+    ],
+    "name": "Groups",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "networks",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "notes",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
