@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "updateNetworks",
+    "params": [
+        "{\"item\":{\"item_id\":\"real_item_id_here\",\"name\":\"myString\",\"nodes\":\"myString\"}}"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "updateNetworks.js"
+}
